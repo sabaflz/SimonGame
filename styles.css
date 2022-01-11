@@ -49,8 +49,18 @@ body {
   border-radius: 30%;
 }
 
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
 footer {
   color: #b3b3b3;
   margin: 3% auto auto;
   text-align: center;
+}
+
+.gameOver {
+  background-color: #a60c40;
+  opacity: 0.8;
 }
